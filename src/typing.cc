@@ -73,7 +73,7 @@ void start() {
 
 int main() {
   fstream fs;
-  const char* const path = "passage1.txt";
+  const char* const path = "data/passage.txt";
   fs.open(path, std::ios::in);
 
   std::getline(fs, title);

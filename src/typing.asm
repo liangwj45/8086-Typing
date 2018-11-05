@@ -9,7 +9,7 @@ assume cs:code, ds:data, ss:stack
   intro3 db 'Go and test it!$'
   intro4 db 'Press any key to begin.$'
   m_title db 'My aim in life$'
-  m_path db 'passage.txt', 0
+  m_path db '../data/passage.txt', 0
   waiting db ':waiting..$'
   wrong db ':wrong..  $'
   win db ':win!     $'
